@@ -1,0 +1,86 @@
+body {
+	font-family: 'Capriola', sans-serif;
+	font-size: 1.2em;
+	margin-right: 1.2em;
+}
+
+.wholeItem {
+	border-bottom: 1px solid black;
+}
+.wholeItem:hover {
+	background-color: linen;
+}
+.basketShown {
+	display: flex;
+	align-items: center;
+}
+
+#colNm {
+	display: flex;
+	font-size: 30px;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+}
+.itemImg {
+	width: 15%;
+	flex: 1;
+}
+
+.products {
+	padding-left: 10px;
+	margin: auto;
+	flex: 5;
+}
+
+#prodtest {
+	/*padding-left: 10px;*/
+	margin: auto;
+	flex: 6;
+}
+
+.price, #amt {
+	text-align: right;
+	flex: 1;
+	margin: auto;
+}
+
+.qty, #quant {
+	text-align: left;
+	flex: 1;
+	margin: auto;
+	padding-right: 10px:
+}
+
+.descriptions {
+	display: none;
+	text-align: center;
+	/*background-color: linen;*/
+	font-size: 1.1em;
+	/*padding-left: 5%;*/
+}
+
+#title {
+	background: orange;
+	height: 3em;
+	margin-bottom: 1.5em;
+	text-align: center;
+}
+
+#foot {
+	display: flex;
+	justify-content: flex-end;
+}
+#total {
+	flex: 1;
+	font-weight: bolder;
+	font-size: 2em;
+	text-align: right;
+}
+#spacer {
+	flex: 4;
+}
+#textTotal {
+	flex: 2;
+	font-weight: bolder;
+	font-size: 2em;
+}
